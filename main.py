@@ -81,14 +81,14 @@ if __name__ == '__main__':
 
     project_id = "<project-id>"
 
-    scheduled_scans = retrieve_scheduled_scan_list(regional_ast_url=configs.get('REGIONAL_AST_URL'), headers=headers)
-    delete_success = delete_scheduled_scan(regional_ast_url=configs.get('REGIONAL_AST_URL'), headers=headers, project_id=project_id)
+    #scheduled_scans = retrieve_scheduled_scan_list(regional_ast_url=configs.get('REGIONAL_AST_URL'), headers=headers)
+    #delete_success = delete_scheduled_scan(regional_ast_url=configs.get('REGIONAL_AST_URL'), headers=headers, project_id=project_id)
     
-    if delete_success:
-        print(f"Deleted scheduled scan for project {project_id}")
+    #if delete_success:
+    #    print(f"Deleted scheduled scan for project {project_id}")
 
-    create_scheduled_scan_response = create_scheduled_scan(regional_ast_url=configs.get('REGIONAL_AST_URL'), headers=headers, project_id=project_id)
+    #create_scheduled_scan_response = create_scheduled_scan(regional_ast_url=configs.get('REGIONAL_AST_URL'), headers=headers, project_id=project_id)
     
-    if create_scheduled_scan_response:
-        print(f"Created scheduled scan for project {project_id}")
+    #if create_scheduled_scan_response:
+    #    print(f"Created scheduled scan for project {project_id}")
 
