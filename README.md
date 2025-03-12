@@ -34,7 +34,7 @@ Before running the script, update the project_id in the main function:
 ```
 project_id = "<project-id>"
 ``` 
-2. Also, make sure to update the scan schedule in the create_scheduled_scan function. The supported params are here: https://checkmarx.stoplight.io/docs/checkmarx-one-api-reference-guide/branches/main/c1i95l3w5ohqh-create-a-scan-schedule#request-body
+2. Also, make sure to update the scan schedule in the create_scheduled_scan function. The supported params are here: https://checkmarx.stoplight.io/docs/checkmarx-one-api-reference-guide/branches/main/c1i95l3w5ohqh-create-a-scan-schedule#request-body  **Make sure the branch name is valid for the project**
 
 ```
     scan_payload = {
