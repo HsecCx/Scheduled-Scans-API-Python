@@ -15,7 +15,7 @@ This Python script automates the scheduling and management of security scans in 
 3. A **valid** API key for Checkmarx One.
 4. The configs.json file containing the required configuration details.
 ## Local Configuration
-==Before running the script, create a configs.json file in the same directory== with the following forma (replacing anything in <>):
+**Before running the script, create a configs.json** file in the same directory with the following forma (replacing anything in <>):
 ```
 {
     "API_KEY":"<api-key>",
