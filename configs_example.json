@@ -1,0 +1,6 @@
+{
+    "API_KEY":"api-key",
+    "TENANT_NAME":"<tenant-name>",
+    "REGIONAL_AST_URL":"<REGIONAL_AST_URL>",
+    "REGIONAL_IAM_URL":"<REGIONAL_IAM_URL>"
+}
