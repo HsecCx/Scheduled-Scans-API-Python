@@ -27,7 +27,7 @@ This Python script automates the scheduling and management of security scans in 
 ## Checkmarx Configuration
 1. Ensure you have the project-id of the project you wish to schedule the scan for
 2. Make sure under project settings for the project you have the remote url for the repository
-3. Verify that the permissions of **view-schedule-scan** ie enabled for the user who is creatikng the scheduled scans.
+3. Verify that the permissions of **view-schedule-scan** ie enabled for the user who is creating the scheduled scans.
 ## Usage
 1. **Update the project_id**
 Before running the script, update the project_id in the main function:
